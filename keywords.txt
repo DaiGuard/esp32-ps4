@@ -1,6 +1,6 @@
 
-Ps3Controller	KEYWORD1
-Ps3	KEYWORD1
+Ps4Controller	KEYWORD1
+Ps4	KEYWORD1
 
 begin	KEYWORD2
 end	KEYWORD2
