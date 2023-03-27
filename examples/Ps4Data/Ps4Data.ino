@@ -1,29 +1,29 @@
-#include <Ps3Controller.h>
+#include <Ps4Controller.h>
 
 void setup()
 {
     Serial.begin(115200);
-    Ps3.begin("01:02:03:04:05:06");
+    Ps4.begin("01:02:03:04:05:06");
     Serial.println("Ready.");
 }
 
 void loop()
 {
-    if(Ps3.isConnected()){
+    if(Ps4.isConnected()){
 
-        if( Ps3.data.button.cross ){
+        if( Ps4.data.button.cross ){
             Serial.println("Pressing the cross button");
         }
 
-        if( Ps3.data.button.square ){
+        if( Ps4.data.button.square ){
             Serial.println("Pressing the square button");
         }
 
-        if( Ps3.data.button.triangle ){
+        if( Ps4.data.button.triangle ){
             Serial.println("Pressing the triangle button");
         }
 
-        if( Ps3.data.button.circle ){
+        if( Ps4.data.button.circle ){
             Serial.println("Pressing the circle button");
         }
 
